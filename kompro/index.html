@@ -24,6 +24,43 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <style>
+        .video-container {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            height: auto;
+        }
+        #header-video {
+            max-width: 100%;
+            max-height: 100%;
+            transform: scale(1.2);
+            transform-origin: center center;
+        }
+        
+        .services-section {
+            position: relative;
+            overflow: hidden;
+            padding: 60px 0;
+            color: #fff;
+            margin-top: -60px; /* Hilangkan jarak antara section */
+        }
+        .video-container-services {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+        }
+        .video-container-services video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+    
 </head>
 
 <body>
@@ -168,27 +205,73 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
+                    
                     <div class="hero-text">
-                        <h1>Sona A Luxury Hotel</h1>
+                        <h1>RAHMAT ALAM SAMUDRA</h1>
                         <p>Here are the best hotel booking sites, including recommendations for international
                             travel and for finding low-priced hotel rooms.</p>
-                        <a href="#" class="primary-btn">Discover Now</a>
+                        <a class="btn btn-danger mb-1" href="#" style="width: 130px;">Link</a>
                     </div>
                 </div>
-                
             </div>
         </div>
         <div class="hero-slider owl-carousel">
-            <div class="wp-video">
+            <div class="video-container">
                 <video autoplay muted loop poster="hero1.jpg" id="header-video">
                     <source src="img/laut.mp4" type="video/mp4">
                     Your browser does not support the video tag.
-                  </video>
+                </video>
             </div>
         </div>
     </section>
+   
     <!-- Hero Section End -->
-
+    <!-- Services Section Begin -->
+    <section class="services-section spad">
+        <div class="video-container-services">
+            <video autoplay muted loop poster="hero1.jpg" id="services-video">
+                <source src="img/laut.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        
+                        <h2>Our Services</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-036-parking"></i>
+                        <h4>Freight Forwarding</h4>
+                        <p>Melayani dan mengatur pengiriman barang anda ke seluruh Indonesia. Didukung Project cargo Full container load
+                            (FCL) dan Les Container Load (LCL) serta sumber daya manusia yang berkualitas.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-033-dinner"></i>
+                        <h4>Devisi Trucking</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="service-item">
+                        <i class="flaticon-026-bed"></i>
+                        <h4>Devisi Warehouse</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section End -->
     <!-- About Us Section Begin -->
     <section class="aboutus-section spad">
         <div class="container">
@@ -196,8 +279,8 @@
                 <div class="col-lg-6">
                     <div class="about-text">
                         <div class="section-title">
-                            <span>About Us</span>
-                            <h2>Intercontinental LA <br />Westlake Hotel</h2>
+                           
+                            <h2>Rahmat alam Samudra</h2>
                         </div>
                         <p class="f-para">Sona.com is a leading online accommodation site. We’re passionate about
                             travel. Every day, we inspire and reach millions of travelers across 90 local websites in 41
@@ -224,76 +307,20 @@
     </section>
     <!-- About Us Section End -->
 
-    <!-- Services Section End -->
-    <section class="services-section spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">
-                        <span>What We Do</span>
-                        <h2>Discover Our Services</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="service-item">
-                        <i class="flaticon-036-parking"></i>
-                        <h4>Travel Plan</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="service-item">
-                        <i class="flaticon-033-dinner"></i>
-                        <h4>Catering Service</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="service-item">
-                        <i class="flaticon-026-bed"></i>
-                        <h4>Babysitting</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="service-item">
-                        <i class="flaticon-024-towel"></i>
-                        <h4>Laundry</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="service-item">
-                        <i class="flaticon-044-clock-1"></i>
-                        <h4>Hire Driver</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="service-item">
-                        <i class="flaticon-012-cocktail"></i>
-                        <h4>Bar & Drink</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Services Section End -->
+   
 
     <!-- Home Room Section Begin -->
     <section class="hp-room-section">
+      
         <div class="container-fluid">
             <div class="hp-room-items">
                 <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title">
+                            
+                            <h2>Menyambungkan Seluruh <br> <br>Indonesia</h2>
+                        </div>
+                    </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="hp-room-item set-bg" data-setbg="img/room/room-b1.jpg">
                             <div class="hr-text">

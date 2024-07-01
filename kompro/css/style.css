@@ -101,8 +101,8 @@ ul, ol {
 	letter-spacing: 2px;
 }
 .section-title h2 {
-	font-size: 44px;
-	color: #19191a;
+	font-size: 80px;
+	color: #ff3d51;
 	line-height: 58px;
 	margin-top: 10px;
 }
@@ -508,7 +508,7 @@ ul, ol {
 	padding-top: 145px;
 }
 .hero-text h1 {
-	font-size: 80px;
+	font-size: 75px;
 	line-height: 90px;
 	color: #ffffff;
 	margin-bottom: 16px;
@@ -685,26 +685,26 @@ ul, ol {
 	transition: all 0.3s;
 }
 .service-item:hover {
-	background: #ff3d51;
+	background: #ffffff;
 }
 .service-item:hover i {
-	color: #ffffff;
+	color: #6666ff;
 }
 .service-item:hover h4 {
-	color: #ffffff;
+	color: #6666ff;
 }
 .service-item:hover p {
-	color: #ffffff;
+	color: #6666ff;
 }
 .service-item i {
 	display: inline-block;
-	color: #ff3d51;
+	color: #ffffff;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 }
 .service-item h4 {
-	color: #19191a;
+	color: #ffffff;
 	font-size: 22px;
 	margin-bottom: 15px;
 	margin-top: 10px;
@@ -713,7 +713,7 @@ ul, ol {
 	transition: all 0.3s;
 }
 .service-item p {
-	color: #707079;
+	color: #ffffff;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
